@@ -1,0 +1,14 @@
+{
+  "name": "@codependence-monorepo/pkg-c",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
