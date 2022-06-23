@@ -1,7 +1,7 @@
 {
   "name": "@codependence-monorepo/root",
   "version": "0.0.0",
-  "description": "",
+  "description": "Codependence monorepo demo",
   "private": true,
   "main": "README.md",
   "scripts": {
@@ -9,17 +9,78 @@
     "test": "pnpm lint"
   },
   "keywords": [],
-  "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@codependence-monorepo/cli": "workspace:*",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/config-lerna-scopes": "^17.0.2",
+    "@commitlint/prompt": "^17.0.0",
     "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
+    "@vitest/ui": "^0.15.2",
+    "commitizen": "^4.2.4",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.0.2",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.8.1",
     "tslib": "^2.4.0",
+    "tsup": "^6.1.2",
     "tsutils": "^3.21.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "vitest": "^0.15.2"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Wainwright"
+    }
+  ],
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-lerna-scopes"
+    ],
+    "rules": {
+      "header-max-length": [
+        2,
+        "always",
+        120
+      ],
+      "scope-enum": [
+        2,
+        "always",
+        [
+          "root",
+          "example-cli",
+          "package-a",
+          "package-b",
+          "package-c"
+        ]
+      ],
+      "type-enum": [
+        2,
+        "always",
+        [
+          "chore",
+          "feat",
+          "fix",
+          "docs",
+          "refactor",
+          "test",
+          "release",
+          "revert",
+          "breaking",
+          "major"
+        ]
+      ]
+    }
   }
 }

@@ -1,14 +1,20 @@
 {
-  "name": "example-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@codependence-monorepo/cli",
+  "version": "0.0.0",
+  "description": "cli",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "codependence-monorepo": "./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "build": "rimraf dist && tsup src/index.ts"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Wainwright"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "commander": "^9.3.0",
     "fs-extra": "^10.1.0"

@@ -1,14 +1,17 @@
 {
   "name": "@codependence-monorepo/pkg-a",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "private": true,
-  "main": "README.md",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsup src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "contributors": [
+    {
+      "name": "Jeff Wainwright"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
