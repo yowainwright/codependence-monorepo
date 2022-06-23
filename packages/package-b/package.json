@@ -10,5 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "devDependencies": {}
+  "dependencies": {
+    "rambda": "^7.1.4"
+  }
 }
