@@ -8,7 +8,8 @@
     "build": "pnpm -r build",
     "cmd:update": "codependence-monorepo",
     "lint": "eslint --fix",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "codependence-monorepo && codependence --update"
   },
   "license": "MIT",
   "devDependencies": {
