@@ -5,10 +5,11 @@
   "private": true,
   "main": "README.md",
   "scripts": {
+    "build": "pnpm -r build",
+    "cmd:update": "codependence-monorepo",
     "lint": "eslint --fix",
-    "test": "pnpm lint"
+    "test": "vitest run"
   },
-  "keywords": [],
   "license": "MIT",
   "devDependencies": {
     "@codependence-monorepo/cli": "workspace:*",
@@ -59,6 +60,7 @@
         "always",
         [
           "root",
+          "cli",
           "example-cli",
           "package-a",
           "package-b",
@@ -82,5 +84,41 @@
         ]
       ]
     }
+  },
+  "codependence": {
+    "codependencies": [
+      "@codependence-monorepo/cli",
+      "@commitlint/cli",
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes",
+      "@commitlint/prompt",
+      "@types/node",
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser",
+      "@vitest/ui",
+      "commitizen",
+      "eslint",
+      "eslint-config-prettier",
+      "husky",
+      "is-ci",
+      "lint-staged",
+      "rimraf",
+      "ts-node",
+      "tslib",
+      "tsup",
+      "tsutils",
+      "typescript",
+      "vitest",
+      "commander",
+      "fast-glob",
+      "fs-extra",
+      "@types/fs-extra",
+      "@types/node",
+      "ts-node",
+      "typescript",
+      "lodash",
+      "@types/lodash",
+      "rambda"
+    ]
   }
 }
