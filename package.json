@@ -9,7 +9,7 @@
     "cmd:update": "codependence-monorepo",
     "lint": "eslint --fix",
     "test": "vitest run",
-    "prepare": "codependence-monorepo && codependence --update"
+    "prepare": "codependence --update"
   },
   "license": "MIT",
   "devDependencies": {
