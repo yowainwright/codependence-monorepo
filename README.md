@@ -1,4 +1,4 @@
-# Codpendence Monorepo 🤼‍♀️
+# Codependence Monorepo 🤼‍♀️
 
 This repo runs a daily cron job to update any dependencies that fall out of date and submits a pull request with the changes. ⏰
 
