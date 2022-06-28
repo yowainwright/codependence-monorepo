@@ -89,7 +89,6 @@
   },
   "codependence": {
     "codependencies": [
-      "@codependence-monorepo/cli",
       "@commitlint/cli",
       "@commitlint/config-conventional",
       "@commitlint/config-lerna-scopes",
