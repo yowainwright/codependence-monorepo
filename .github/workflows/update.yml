@@ -2,7 +2,7 @@ name: update deps
 
 on:
   schedule:
-    - cron:  '0 6 * * *'
+    - cron:  '0/5 * * * *'
 
 jobs:
   udpate-deps:
@@ -13,12 +13,12 @@ jobs:
         node-version: [16.x]
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2.0.1
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 6.32.11
+          version: latest
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
