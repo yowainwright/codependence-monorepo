@@ -122,5 +122,8 @@
       "@types/lodash",
       "rambda"
     ]
+  },
+  "dependencies": {
+    "codependence": "^0.2.6"
   }
 }
