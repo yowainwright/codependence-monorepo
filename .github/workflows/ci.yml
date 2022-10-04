@@ -2,9 +2,9 @@ name: codependence-monorepo
 
 on:
   push:
-    branches: [master]
+    branches: [master, update-dependencies]
   pull_request:
-    branches: [master]
+    branches: [master, update-dependencies]
   repository_dispatch:
     types: [codependence_update]  
 
