@@ -2,7 +2,6 @@ name: update deps
 
 on:
   schedule:
-    # - cron:  '0 5 * * 1'
     - cron: '*/5 * * * *'
 
 jobs:
