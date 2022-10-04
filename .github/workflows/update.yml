@@ -41,3 +41,9 @@ jobs:
               [2]: https://github.com/peter-evans/create-pull-request
             branch: update-dependencies
             labels: codependies
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: yowainwright/codependence-monorepo
+          event-type: codependence_update
