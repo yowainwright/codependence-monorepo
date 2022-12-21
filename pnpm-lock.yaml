@@ -3450,15 +3450,15 @@ packages:
       readable-stream: 3.6.0
     dev: true
 
-  /tinycolor2/1.4.2:
-    resolution: {integrity: sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==}
+  /tinycolor2/1.5.0:
+    resolution: {integrity: sha512-opkFmTUuHQJj6/+A4B432NAptta/ytJq6UiWxqa860hSvMG9m3FxsbR4jYQfdXf59H1aE80Yd0UpFjhbg1e/zw==}
     dev: false
 
   /tinygradient/1.1.5:
     resolution: {integrity: sha512-8nIfc2vgQ4TeLnk2lFj4tRLvvJwEfQuabdsmvDdQPT0xlk9TaNtpGd6nNRxXoK6vQhN6RSzj+Cnp5tTQmpxmbw==}
     dependencies:
       '@types/tinycolor2': 1.4.3
-      tinycolor2: 1.4.2
+      tinycolor2: 1.5.0
     dev: false
 
   /tinypool/0.1.3:
