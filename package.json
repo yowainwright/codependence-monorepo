@@ -17,12 +17,12 @@
     "@commitlint/config-conventional": "17.7.0",
     "@commitlint/config-lerna-scopes": "17.7.0",
     "@commitlint/prompt": "17.7.1",
-    "@types/node": "20.5.9",
-    "@typescript-eslint/eslint-plugin": "6.5.0",
-    "@typescript-eslint/parser": "6.5.0",
-    "@vitest/ui": "0.34.3",
+    "@types/node": "20.6.0",
+    "@typescript-eslint/eslint-plugin": "6.6.0",
+    "@typescript-eslint/parser": "6.6.0",
+    "@vitest/ui": "0.34.4",
     "commitizen": "^4.3.0",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
@@ -33,7 +33,7 @@
     "tsup": "7.2.0",
     "tsutils": "^3.21.0",
     "typescript": "5.2.2",
-    "vitest": "0.34.3"
+    "vitest": "0.34.4"
   },
   "contributors": [
     {
