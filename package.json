@@ -13,16 +13,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "19.2.1",
-    "@commitlint/config-conventional": "19.1.0",
+    "@commitlint/cli": "19.2.2",
+    "@commitlint/config-conventional": "19.2.2",
     "@commitlint/config-lerna-scopes": "19.0.0",
-    "@commitlint/prompt": "19.2.0",
-    "@types/node": "20.12.2",
-    "@typescript-eslint/eslint-plugin": "7.4.0",
-    "@typescript-eslint/parser": "7.4.0",
-    "@vitest/ui": "1.4.0",
+    "@commitlint/prompt": "19.2.2",
+    "@types/node": "20.12.7",
+    "@typescript-eslint/eslint-plugin": "7.7.0",
+    "@typescript-eslint/parser": "7.7.0",
+    "@vitest/ui": "1.5.0",
     "commitizen": "^4.3.0",
-    "eslint": "8.57.0",
+    "eslint": "9.1.0",
     "eslint-config-prettier": "9.1.0",
     "husky": "9.0.11",
     "is-ci": "^3.0.1",
@@ -32,8 +32,8 @@
     "tslib": "2.6.2",
     "tsup": "8.0.2",
     "tsutils": "^3.21.0",
-    "typescript": "5.4.3",
-    "vitest": "1.4.0"
+    "typescript": "5.4.5",
+    "vitest": "1.5.0"
   },
   "contributors": [
     {
@@ -122,6 +122,7 @@
     ]
   },
   "dependencies": {
-    "codependence": "^0.2.6"
+    "codependence": "0.2.7-beta.6",
+    "typescript-eslint": "^7.7.0"
   }
 }
