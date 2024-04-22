@@ -88,6 +88,8 @@
   "codependence": {
     "codependencies": [
       "codependence",
+      "globals",
+      "typescript-eslint",
       "@commitlint/cli",
       "@commitlint/config-conventional",
       "@commitlint/config-lerna-scopes",
@@ -123,6 +125,7 @@
   },
   "dependencies": {
     "codependence": "0.2.7-beta.6",
+    "globals": "^15.0.0",
     "typescript-eslint": "^7.7.0"
   }
 }
