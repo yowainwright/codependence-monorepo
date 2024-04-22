@@ -33,7 +33,11 @@
     "tsup": "8.0.2",
     "tsutils": "^3.21.0",
     "typescript": "5.4.5",
-    "vitest": "1.5.0"
+    "vitest": "1.5.0",
+    "codependence": "0.2.7-beta.6",
+    "globals": "^15.0.0",
+    "pnpm": "^9.0.5",
+    "typescript-eslint": "^7.7.0"
   },
   "contributors": [
     {
@@ -122,10 +126,5 @@
       "@types/lodash",
       "rambda"
     ]
-  },
-  "dependencies": {
-    "codependence": "0.2.7-beta.6",
-    "globals": "^15.0.0",
-    "typescript-eslint": "^7.7.0"
   }
 }
