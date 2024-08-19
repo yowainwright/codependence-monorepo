@@ -17,16 +17,16 @@
     "@commitlint/config-conventional": "19.2.2",
     "@commitlint/config-lerna-scopes": "19.0.0",
     "@commitlint/prompt": "19.4.0",
-    "@types/node": "22.2.0",
-    "@typescript-eslint/eslint-plugin": "8.0.1",
-    "@typescript-eslint/parser": "8.0.1",
+    "@types/node": "22.4.1",
+    "@typescript-eslint/eslint-plugin": "8.1.0",
+    "@typescript-eslint/parser": "8.1.0",
     "@vitest/ui": "2.0.5",
     "commitizen": "^4.3.0",
     "eslint": "9.9.0",
     "eslint-config-prettier": "9.1.0",
     "husky": "9.1.4",
     "is-ci": "^3.0.1",
-    "lint-staged": "15.2.8",
+    "lint-staged": "15.2.9",
     "rimraf": "6.0.1",
     "ts-node": "10.9.2",
     "tslib": "2.6.3",
@@ -36,8 +36,8 @@
     "vitest": "2.0.5",
     "codependence": "0.3.1",
     "globals": "^15.9.0",
-    "pnpm": "^9.7.0",
-    "typescript-eslint": "^8.0.1"
+    "pnpm": "^9.7.1",
+    "typescript-eslint": "^8.1.0"
   },
   "contributors": [
     {
