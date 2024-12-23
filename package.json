@@ -18,8 +18,8 @@
     "@commitlint/config-lerna-scopes": "19.5.0",
     "@commitlint/prompt": "19.6.1",
     "@types/node": "22.10.2",
-    "@typescript-eslint/eslint-plugin": "8.18.0",
-    "@typescript-eslint/parser": "8.18.0",
+    "@typescript-eslint/eslint-plugin": "8.18.1",
+    "@typescript-eslint/parser": "8.18.1",
     "@vitest/ui": "2.1.8",
     "commitizen": "^4.3.1",
     "eslint": "9.17.0",
@@ -35,9 +35,9 @@
     "typescript": "5.7.2",
     "vitest": "2.1.8",
     "codependence": "0.3.1",
-    "globals": "^15.13.0",
-    "pnpm": "^9.15.0",
-    "typescript-eslint": "^8.18.0"
+    "globals": "^15.14.0",
+    "pnpm": "^9.15.1",
+    "typescript-eslint": "^8.18.1"
   },
   "contributors": [
     {
