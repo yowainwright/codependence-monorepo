@@ -13,13 +13,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "19.6.1",
-    "@commitlint/config-conventional": "19.6.0",
+    "@commitlint/cli": "19.7.1",
+    "@commitlint/config-conventional": "19.7.1",
     "@commitlint/config-lerna-scopes": "19.7.0",
-    "@commitlint/prompt": "19.7.0",
-    "@types/node": "22.10.10",
-    "@typescript-eslint/eslint-plugin": "8.21.0",
-    "@typescript-eslint/parser": "8.21.0",
+    "@commitlint/prompt": "19.7.1",
+    "@types/node": "22.13.0",
+    "@typescript-eslint/eslint-plugin": "8.22.0",
+    "@typescript-eslint/parser": "8.22.0",
     "@vitest/ui": "3.0.4",
     "commitizen": "^4.3.1",
     "eslint": "9.19.0",
@@ -36,8 +36,8 @@
     "vitest": "3.0.4",
     "codependence": "0.3.1",
     "globals": "^15.14.0",
-    "pnpm": "^9.15.4",
-    "typescript-eslint": "^8.21.0"
+    "pnpm": "^9.15.5",
+    "typescript-eslint": "^8.22.0"
   },
   "contributors": [
     {
